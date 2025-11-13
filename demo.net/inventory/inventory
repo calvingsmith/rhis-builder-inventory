@@ -1,0 +1,44 @@
+[provisioner]
+localhost
+
+[idm_primary]
+idm.demo.net
+
+[idm_replicas]
+idmr1.demo.net
+idmr2.demo.net
+
+[sat_primary]
+satellite.demo.net
+
+[sat_capsule]
+capsule1.demo.net
+capsule2.demo.net
+
+[platform_installer]
+aapcontroller24.demo.net
+
+[aap_controllers]
+aapcontroller24.demo.net
+
+# [aap_database]
+
+[aap_hubs]
+aaphub24.demo.net
+
+# [aap_edacontrollers]
+# [aap_execution_nodes]
+# [aap_hop_nodes]
+
+[container_servers]
+containerhost1.demo.net
+containerhost2.demo.net
+
+# [aws_nodes]
+# [azure_nodes]
+# [baremetal_nodes]
+# [gcp_nodes]
+# [kvm_nodes]
+# [ocp_virt_nodes]
+# [openstack_nodes]
+# [vmware_nodes]

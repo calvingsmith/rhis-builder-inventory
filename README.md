@@ -17,7 +17,7 @@ Provide the configuration definitions to the rhis-provisioner container for all 
     * an inventory folder is used to contain one or more inventory files for the organization (e.g. a DEV inventory vs. a QA inventory). Only one inventory file is used at a time. 
 
 * templates directory
-    * this folder contains templates required by RHIS to build the environment. Examples are all the Satellite provisioning, job and partition table templates. You can modify or extend these configurations by addin your own templates, or customizing existing templates. The example.ca organization templates are provided as examples and can be used directly in your own configurations.
+    * this folder contains templates required by RHIS to build the environment. Examples are all the Satellite provisioning, job and partition table templates. You can modify or extend these configurations by addin your own templates, or customizing existing templates. The demo.net organization templates are provided as examples and can be used directly in your own configurations.
 
 * vars directory
     * this folder contains vars files to be used in the RHIS build environment that are:
