@@ -17,10 +17,7 @@ target_arch: "x86_64"
 
 target_cloud_repos: ""
 # target_cloud_repos: |
-#     ,
-#     {
-#       "name": "google-compute-engine",
-#       "baseurl": "https://packages.cloud.google.com/yum/repos/google-compute-engine-el9-x86_64-stable",
+#     ,rhis-builder-inventoryepos/google-compute-engine-el9-x86_64-stable",
 #       "check_gpg": false,
 #       "image_type_tags": [
 #         "gce"
