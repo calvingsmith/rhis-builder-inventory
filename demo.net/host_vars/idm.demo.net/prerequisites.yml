@@ -39,7 +39,7 @@ ipa_crypto_policy: "DeFaULt"
 # before IdM DNS comes up in your network here
 # These are simply test values
 etc_hosts_list:
-  - ip: "192.168.140.13"
+  - ip: "192.168.25.13"
     fqdn: "provisioner.demo.net"
-  - ip: "192.168.140.12"
+  - ip: "192.168.25.12"
     fqdn: "satellite.demo.net"

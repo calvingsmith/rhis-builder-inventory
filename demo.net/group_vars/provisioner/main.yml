@@ -1,7 +1,7 @@
 ---
 
 ipa_server_fqdn: "idm.demo.net"
-ipa_client_dns_servers: "192.168.140.5"
+ipa_client_dns_servers: "192.168.25.5"
 
 # These vault variables should be encrypted in your
 # rhisbuilder_vault.yml file

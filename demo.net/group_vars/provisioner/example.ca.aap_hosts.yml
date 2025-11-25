@@ -30,7 +30,7 @@ _default_vm_provision_iface: "ens192"
 # Bond network
 _default_bond_subnetname: "bond_subnet"
 _default_bond_subnet_prefix: 23
-_default_bond_default_gateway: 192.168.140.1
+_default_bond_default_gateway: 192.168.25.1
 _default_bond_iface: "bond0"
 _default_child_iface1: "enp2s0f0"
 _default_child_iface2: "enp2s0f1"
@@ -59,7 +59,7 @@ aap24_hosts:
         provision: true
         subnet: "{{ _default_subnetname }}"
         mac: "54:b2:03:f1:0b:6a"
-        ip: "192.168.140.14"
+        ip: "192.168.25.14"
 
 # The aap controller node
   - fqdn: "{{ groups['aap_controllers'][0] }}"
@@ -79,7 +79,7 @@ aap24_hosts:
         provision: true
         subnet: "{{ _default_subnetname }}"
         mac: "54:b2:03:f1:0b:46"
-        ip: "192.168.140.15"
+        ip: "192.168.25.15"
 
 
 # AAP 2.5 Growth Deployment
@@ -102,7 +102,7 @@ aap24_hosts:
 #         provision: true
 #         subnet: "{{ _default_subnetname }}"
 #         mac: "54:b2:03:f1:0b:9f"
-#         ip: "192.168.140.44"
+#         ip: "192.168.25.44"
 
 #   - fqdn: "{{ groups['aap_controllers'][0] }}"
 #     delete_host: false
@@ -121,7 +121,7 @@ aap24_hosts:
 #         provision: true
 #         subnet: "{{ _default_subnetname }}"
 #         mac: "54:b2:03:f1:0b:46"
-#         ip: "192.168.140.45"
+#         ip: "192.168.25.45"
 
 #   - fqdn: "{{ groups['aap_db'][0] }}"
 #     delete_host: false
@@ -131,7 +131,7 @@ aap24_hosts:
 #     kickstart_repository: "Red Hat Enterprise Linux 9 for x86_64 - BaseOS Kickstart 9.6"
 #     compute_resource: "{{ vm_compute_resource }}"
 #     mac: "00:50:56:ff:ff:ff"
-#     ip: "192.168.140.46"
+#     ip: "192.168.25.46"
 
 #   - fqdn: "{{ groups['aap_gateway'][0] }}"
 #     delete_host: false
@@ -141,7 +141,7 @@ aap24_hosts:
 #     kickstart_repository: "Red Hat Enterprise Linux 9 for x86_64 - BaseOS Kickstart 9.6"
 #     compute_resource: "{{ vm_compute_resource }}"
 #     mac: "00:50:56:ff:ff:ff"
-#     ip: "192.168.140.47"
+#     ip: "192.168.25.47"
 
 #   - fqdn: "{{ groups['aap_eda_controller'][0] }}"
 #     delete_host: false
@@ -151,4 +151,4 @@ aap24_hosts:
 #     kickstart_repository: "Red Hat Enterprise Linux 9 for x86_64 - BaseOS Kickstart 9.6"
 #     compute_resource: "{{ vm_compute_resource }}"
 #     mac: "00:50:56:ff:ff:ff"
-#     ip: "192.168.140.48"
+#     ip: "192.168.25.48"
