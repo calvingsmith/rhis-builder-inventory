@@ -3,12 +3,6 @@
 # yamllint disable rule:line-length
 
 settings_provisioning:
-#   - name: "host_owner"
-#     full_name: "Host owner"
-#     description: "Default owner on provisioned hosts, if empty Satellite will use current user"
-#     settings_type: "string"
-# #    default: ""
-#     value: ""
 
   - name: "root_pass"
     full_name: "Root password"

@@ -2,14 +2,14 @@
 localhost
 
 [idm_primary]
-idm.demo.net
+idm.demo.net    ansible_host=192.168.25.10
 
 [idm_replicas]
 idmr1.demo.net
 idmr2.demo.net
 
 [sat_primary]
-satellite.demo.net
+satellite.demo.net  ansible_host=192.168.25.11
 
 [sat_capsule]
 capsule1.demo.net
