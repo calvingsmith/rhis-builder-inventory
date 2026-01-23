@@ -40,7 +40,7 @@ sat_installer_options:
   - '--foreman-proxy-dns-tsig-keytab "/etc/foreman-proxy/freeipa.keytab"'
   - '--foreman-proxy-dns-tsig-principal "{{ foreman_proxy_realm_principal }}"'
   - '--foreman-proxy-http true'
-  - '--foreman-proxy-https true'
+  # - '--foreman-proxy-https true'
   - '--foreman-proxy-httpboot true'
   - '--foreman-proxy-realm true'
   - '--foreman-proxy-realm-keytab "/etc/foreman-proxy/freeipa.keytab"'
