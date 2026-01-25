@@ -7,5 +7,6 @@ manifest_portal_url: "https://subscription.rhsm.redhat.com"
 manifest_validate_certs: true
 manifest_cdn_username: "{{ cdn_username_vault }}"
 manifest_cdn_password: "{{ cdn_password_vault }}"
+manifest_uuid: "e4928fd0-aa75-4512-978a-173b50011b8b"
 manifest_account: "{{ cdn_account_number_vault }}"
 manifest_subs: "{{ manifest_subs_vault }}"  # see rhisbuilder_vault_SAMPLE.yml
